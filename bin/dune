@@ -1,0 +1,7 @@
+(executable
+ (public_name loop)
+ (name main)
+ (libraries loop lwt lwt.unix logs))
+ (env
+   (dev
+     (flags (:standard -w -6))))
